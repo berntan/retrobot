@@ -2,10 +2,10 @@ version: "2"
 component-id: "6329FA9D-786C-48C8-9FD8-37401C8919B2"
 ci-server-host: "te-prod-go-04.springer-sbm.com"
 go-pipeline-group: "Nat"
-cf-username: anura@groups.springer.com
-cf-org: anura
-language: javascript
-slack-channel: retrobot-development
+cf-username: "anura@groups.springer.com"
+cf-org: "anura"
+language: "node.js"
+slack-channel: "retrobot-development"
 
 environment-groups:
  - name: "live"
