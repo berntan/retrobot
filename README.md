@@ -2,6 +2,8 @@
 
 A retrospective bot for Slack (inspired by [@PebbleKat's retrobot](https://github.com/PebbleKat/retrobot) 💙).
 
+App-anatomised by Nat Pryce
+
 The bot will record retrospective feedback (via DMs) and then display in a group channel in a random order, allowing everyone to vote on "needs work" with a 👍, after which a summary of the top 3 can be reported. All inside of Slack.
 
 ## Prerequisites
