@@ -10,10 +10,8 @@ slack-channel: "retrobot-development"
 environment-groups:
  - name: "live"
    automatic-approval: true
-   needs-to-be-publicly-accessible: true
+   needs-to-be-publicly-accessible: false
    manifest: "manifest-live.yml"
-   additional-routes:
-    - "retrobot.live.public.springernature.io"
    environment-variables:
     - name:  "NODE_ENV"
       value: "LIVE"
