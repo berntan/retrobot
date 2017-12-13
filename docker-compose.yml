@@ -5,10 +5,10 @@ code:
   image: te-docker.docker-registry.tools.springer-sbm.com/fig-env-node
   dns: *DNS
   volumes:
-    - ..:/home/dev/code
+    - .:/home/dev/code
 
 deploy:
   image: te-docker.docker-registry.tools.springer-sbm.com/fig-env-deploy-to-cf
   dns: *DNS
   volumes:
-    - ..:/home/dev/code
+    - .:/home/dev/code
