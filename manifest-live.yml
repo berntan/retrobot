@@ -2,3 +2,4 @@
 applications:
 - memory: 128M
   instances: 1
+  disk_quota: 1024M
