@@ -3,7 +3,11 @@
 let retrobot = require("./lib");
 let express = require("express");
 
+console.log("starting retrobot");
+
 retrobot.setup();
+
+console.log("connected to Slack");
 
 const app = express();
 app.get('/internal/status', (req, res) => res.send({
@@ -15,4 +19,5 @@ app.get('/internal/version', (req, res) => res.send({
 }));
 
 let listener = app.listen(process.env.PORT || 0);
-console.log("listening on port " + listener.address().port);
+
+console.log("web server listening on port " + listener.address().port);
