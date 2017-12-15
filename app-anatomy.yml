@@ -8,13 +8,13 @@ language: "node.js"
 slack-channel: "retrobot-development"
 
 environment-groups:
- - name: "live"
+ - name: "dev"
    automatic-approval: true
    needs-to-be-publicly-accessible: false
    manifest: "manifest-live.yml"
    environment-variables:
     - name:  "NODE_ENV"
-      value: "LIVE"
+      value: "production"
     - name:  "CONTACT"
       value: "nathaniel.pryce@springernature.com"
    encrypted-environment-variables:
