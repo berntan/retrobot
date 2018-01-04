@@ -17,8 +17,8 @@ encrypted-environment-variables:
    value: "VuLxIp6O3MHB+hXSGp/rJAtQFUIUtYPtyEjPAdh1pS3VIVRxvhjgym3UoQcnO7N6"
 
 environment-groups:
- - name: "live"
-   cf-space: "productivity"
+ - name: "productivity"
+   cf-api-url: "http://api.live.cf.springer-sbm.com"
    automatic-approval: true
    needs-to-be-publicly-accessible: false
    manifest: "cf-manifest.yml"
