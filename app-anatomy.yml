@@ -5,7 +5,7 @@ go-pipeline-group: "CA.Productivity"
 cf-username: "anura@groups.springer.com"
 cf-org: "anura"
 language: "node.js"
-slack-channel: "retrobot-development"
+slack-channel: "ca-productivity-dev"
 
 environment-variables:
  - name:  "NODE_ENV"
